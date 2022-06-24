@@ -21,8 +21,7 @@ int main(){
     float kgs;
     float pound;
     float meter;
-    int hectare;
-    int acre;
+    
    label1:
    printf("\n");
      printf("Program to convert units and mesurement\n");
@@ -31,7 +30,7 @@ int main(){
     printf("\t Enter '3' for Centimeter to inches\n");
     printf("\t Enter '4' for Pound to Kilograms\n");
     printf("\t Enter '5' for Inches to miles\n");
-    printf("\t Enter '6' for Hectare to acre6\n");
+    
     printf("\t \t \t \t \t \t \t \t \t [If you want to quit press any other numbers]\n");
     scanf("%d",&units);
     
@@ -69,12 +68,7 @@ int main(){
         float meter = inches / 39.37;
         printf("\t Value in Meters : %f\n",meter);
         goto label1;
-        case 6: 
-        printf(" \t Enter Hectare value.\n");
-        scanf("%f",&hectare);
-        float acre = hectare * 2.471;
-        printf("\t Value in acre: %f\n",(float) acre); 
-        goto label1;
+        
        
       
         
